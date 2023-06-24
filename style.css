@@ -8,8 +8,8 @@
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color: rgba(255, 255, 255, 0.1);
-  --surface-color-hover: rgba(255, 255, 255, 0.05);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(255, 255, 255, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/MoonStars.svg);
 }
@@ -25,14 +25,6 @@
 }
 
 body {
-  /*
-  background-image: url(./assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  */
-
-  /*background color image repeat position/size */
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
@@ -135,7 +127,7 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
 
-  transition: background 0.3s;
+  transition: background 0.2s;
 }
 
 /* pseudo-selector */
@@ -160,7 +152,7 @@ ul li a:hover {
   justify-content: center;
   padding: 16px;
 
-  transition: background 0.3s;
+  transition: background 0.2s;
   border-radius: 50%;
 }
 
